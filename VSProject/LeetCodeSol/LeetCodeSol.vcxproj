@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\AddTwoNumbersSolution.cpp" />
+    <ClCompile Include="Src\BasicCalculatorIISolution.cpp" />
+    <ClCompile Include="Src\BasicCalculatorSolution.cpp" />
+    <ClCompile Include="Src\BinaryTreePathsSolution.cpp" />
+    <ClCompile Include="Src\BullsAndCowsSolution.cpp" />
+    <ClCompile Include="Src\ConvertANumberToHexadecimal.cpp" />
+    <ClCompile Include="Src\CountPrimesSolution.cpp" />
+    <ClCompile Include="Src\FibonacciNumber.cpp" />
+    <ClCompile Include="Src\FirstBadVersionSolution.cpp" />
+    <ClCompile Include="Src\GuessNumberHigherOrLower.cpp" />
+    <ClCompile Include="Src\HouseRobberSolution.cpp" />
+    <ClCompile Include="Src\ImplementTriePrefixTree.cpp" />
+    <ClCompile Include="Src\IsomorphicStringsSolution.cpp" />
+    <ClCompile Include="Src\LongestSubstringWithoutRepeatingCharactersSolution.cpp" />
+    <ClCompile Include="Src\LowestCommonAncestorOfABinaryTreeSolution.cpp" />
+    <ClCompile Include="Src\MaxConsecutiveOnes.cpp" />
+    <ClCompile Include="Src\MaximumLengthOfRepeatedSubarray.cpp" />
+    <ClCompile Include="Src\MedianFinder.cpp" />
+    <ClCompile Include="Src\MergeTwoSortedListsSolution.cpp" />
+    <ClCompile Include="Src\MissingNumberSolution.cpp" />
+    <ClCompile Include="Src\NArryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="Src\NimGameSolution.cpp" />
+    <ClCompile Include="Src\NRepeatedElementInSize2NArray.cpp" />
+    <ClCompile Include="Src\NumArraySolution.cpp" />
+    <ClCompile Include="Src\PalindromeLinkedListSolution.cpp" />
+    <ClCompile Include="Src\PeekingIteratorSolution.cpp" />
+    <ClCompile Include="Src\ProductOfArrayExceptSelfSolution.cpp" />
+    <ClCompile Include="Src\RangeSumQueryImmutableSolution.cpp" />
+    <ClCompile Include="Src\RectangleAreaSolution.cpp" />
+    <ClCompile Include="Src\RemoveDuplicateLettersSolution.cpp" />
+    <ClCompile Include="Src\RemoveNthNodeFromEndOfListSolution.cpp" />
+    <ClCompile Include="Src\ReverseOnlyLetters.cpp" />
+    <ClCompile Include="Src\SingleNumberIII.cpp" />
+    <ClCompile Include="Src\SingleNumberSolution.cpp" />
+    <ClCompile Include="Src\SortArrayByParityII.cpp" />
+    <ClCompile Include="Src\SquaresOfASortedArray.cpp" />
+    <ClCompile Include="Src\SummaryRangesSolution.cpp" />
+    <ClCompile Include="Src\TwoSumII.cpp" />
+    <ClCompile Include="Src\TwoSumSolution.cpp" />
+    <ClCompile Include="Src\ValidPerfectSquare.cpp" />
+    <ClCompile Include="Src\WordPatternSolution.cpp" />
+    <ClCompile Include="UnitTest\AddTwoNumbersTestSuite.cpp" />
+    <ClCompile Include="UnitTest\BasicCalculatorIITestSuite.cpp" />
+    <ClCompile Include="UnitTest\BasicCalculatorTestSuite.cpp" />
+    <ClCompile Include="UnitTest\BinaryTreePathsTestSuite.cpp" />
+    <ClCompile Include="UnitTest\BullsAndCowsTestSuite.cpp" />
+    <ClCompile Include="UnitTest\ConvertANumberToHexadecimalTestSuite.cpp" />
+    <ClCompile Include="UnitTest\CountPrimesTestSuite.cpp" />
+    <ClCompile Include="UnitTest\FibonacciNumberTestSuite.cpp" />
+    <ClCompile Include="UnitTest\FirstBadVersionTestSuite.cpp" />
+    <ClCompile Include="UnitTest\GuessNumberHigherOrLowerTestSuite.cpp" />
+    <ClCompile Include="UnitTest\HouseRobberTestSuite.cpp" />
+    <ClCompile Include="UnitTest\IsomorphicStringsTestSuite.cpp" />
+    <ClCompile Include="UnitTest\LongestSubstringWithoutRepeatingCharactersTestSuite.cpp" />
+    <ClCompile Include="UnitTest\LowestCommonAncestorOfABinaryTreeTestSuite.cpp" />
+    <ClCompile Include="UnitTest\MaxConsecutiveOnesTestSuite.cpp" />
+    <ClCompile Include="UnitTest\MaximumLengthOfRepeatedSubarrayTestSuite.cpp" />
+    <ClCompile Include="UnitTest\MedianFinderTestSuite.cpp" />
+    <ClCompile Include="UnitTest\MergeTwoSortedListsTestSuite.cpp" />
+    <ClCompile Include="UnitTest\MissingNumberTestSuite.cpp" />
+    <ClCompile Include="UnitTest\NimGameTestSuite.cpp" />
+    <ClCompile Include="UnitTest\NRepeatedElementInSize2NArrayTestSuite.cpp" />
+    <ClCompile Include="UnitTest\PalindromeLinkedListTestSuite.cpp" />
+    <ClCompile Include="UnitTest\ProductOfArrayExceptSelfTestSuite.cpp" />
+    <ClCompile Include="UnitTest\RangeSumQueryImmutableTestSuite.cpp" />
+    <ClCompile Include="UnitTest\RangeSumQueryTestSuite.cpp" />
+    <ClCompile Include="UnitTest\RectangleAreaTestSuite.cpp" />
+    <ClCompile Include="UnitTest\RemoveDuplicateLettersTestSuite.cpp" />
+    <ClCompile Include="UnitTest\RemoveNthNodeFromEndofListTestSuite.cpp" />
+    <ClCompile Include="UnitTest\ReverseOnlyLettersTestSuite.cpp" />
+    <ClCompile Include="UnitTest\SingleNumberIIITestSuite.cpp" />
+    <ClCompile Include="UnitTest\SingleNumberTestSuite.cpp" />
+    <ClCompile Include="UnitTest\SortArrayByParityIITestSuite.cpp" />
+    <ClCompile Include="UnitTest\SquaresOfASortedArrayTestSuite.cpp" />
+    <ClCompile Include="UnitTest\SummaryRangesTestSuite.cpp" />
+    <ClCompile Include="UnitTest\TowSumTestSuite.cpp" />
+    <ClCompile Include="UnitTest\TrieTestSuite.cpp" />
+    <ClCompile Include="UnitTest\TwoSumIITestSuite.cpp" />
+    <ClCompile Include="UnitTest\ValidPerfectSquareTestSuite.cpp" />
+    <ClCompile Include="UnitTest\WordPatternTestSuite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\AddTwoNumbersSolution.hpp" />
+    <ClInclude Include="Src\BasicCalculatorIISolution.hpp" />
+    <ClInclude Include="Src\BasicCalculatorSolution.hpp" />
+    <ClInclude Include="Src\BinaryTreePathsSolution.hpp" />
+    <ClInclude Include="Src\BullsAndCowsSolution.hpp" />
+    <ClInclude Include="Src\ConvertANumberToHexadecimal.hpp" />
+    <ClInclude Include="Src\CountPrimesSolution.hpp" />
+    <ClInclude Include="Src\FibonacciNumber.hpp" />
+    <ClInclude Include="Src\FirstBadVersionSolution.hpp" />
+    <ClInclude Include="Src\GuessNumberHigherOrLower.hpp" />
+    <ClInclude Include="Src\HouseRobberSolution.hpp" />
+    <ClInclude Include="Src\ImplementTriePrefixTree.hpp" />
+    <ClInclude Include="Src\IsomorphicStringsSolution.hpp" />
+    <ClInclude Include="Src\LongestSubstringWithoutRepeatingCharactersSolution.h" />
+    <ClInclude Include="Src\LowestCommonAncestorOfABinaryTreeSolution.hpp" />
+    <ClInclude Include="Src\MaxConsecutiveOnes.hpp" />
+    <ClInclude Include="Src\MaximumLengthOfRepeatedSubarray.hpp" />
+    <ClInclude Include="Src\MedianFinder.hpp" />
+    <ClInclude Include="Src\MergeTwoSortedListsSolution.hpp" />
+    <ClInclude Include="Src\MissingNumberSolution.hpp" />
+    <ClInclude Include="Src\NArryTreeLevelOrderTraversal.hpp" />
+    <ClInclude Include="Src\NimGameSolution.hpp" />
+    <ClInclude Include="Src\NRepeatedElementInSize2NArray.hpp" />
+    <ClInclude Include="Src\NumArraySolution.hpp" />
+    <ClInclude Include="Src\PalindromeLinkedListSolution.hpp" />
+    <ClInclude Include="Src\PeekingIteratorSolution.hpp" />
+    <ClInclude Include="Src\ProductOfArrayExceptSelfSolution.hpp" />
+    <ClInclude Include="Src\RangeSumQueryImmutableSolution.hpp" />
+    <ClInclude Include="Src\RectangleAreaSolution.hpp" />
+    <ClInclude Include="Src\RemoveDuplicateLettersSolution.hpp" />
+    <ClInclude Include="Src\RemoveNthNodeFromEndOfListSolution.hpp" />
+    <ClInclude Include="Src\ReverseOnlyLetters.hpp" />
+    <ClInclude Include="Src\SingleNumberIII.hpp" />
+    <ClInclude Include="Src\SingleNumberSolution.hpp" />
+    <ClInclude Include="Src\SortArrayByParityII.hpp" />
+    <ClInclude Include="Src\SquaresOfASortedArray.hpp" />
+    <ClInclude Include="Src\Struct.hpp" />
+    <ClInclude Include="Src\SummaryRangesSolution.hpp" />
+    <ClInclude Include="Src\TwoSumII.hpp" />
+    <ClInclude Include="Src\TwoSumSolution.hpp" />
+    <ClInclude Include="Src\ValidPerfectSquare.hpp" />
+    <ClInclude Include="Src\WordPatternSolution.hpp" />
+    <ClInclude Include="UnitTest\disabled.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C4F9725-900A-4301-8881-3B7427410A40}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LeetCodeSol</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\3rdlib\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\3rdlib\lib\vs2013\x86\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gmock_main.lib;gmock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\3rdlib\installed\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\3rdlib\installed\x64\debug\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gmock_maind.lib;gmockd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\3rdlib\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\3rdlib\lib\vs2013\x86\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gmock_main.lib;gmock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\3rdlib\installed\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\3rdlib\installed\x64\release\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gmock_main.lib;gmock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
