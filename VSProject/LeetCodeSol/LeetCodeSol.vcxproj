@@ -19,162 +19,161 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\AddTwoNumbersSolution.cpp" />
-    <ClCompile Include="Src\BasicCalculatorIISolution.cpp" />
-    <ClCompile Include="Src\BasicCalculatorSolution.cpp" />
-    <ClCompile Include="Src\BinaryTreePathsSolution.cpp" />
-    <ClCompile Include="Src\BullsAndCowsSolution.cpp" />
-    <ClCompile Include="Src\ConvertANumberToHexadecimal.cpp" />
-    <ClCompile Include="Src\CountPrimesSolution.cpp" />
-    <ClCompile Include="Src\FibonacciNumber.cpp" />
-    <ClCompile Include="Src\FirstBadVersionSolution.cpp" />
-    <ClCompile Include="Src\GuessNumberHigherOrLower.cpp" />
-    <ClCompile Include="Src\HouseRobberSolution.cpp" />
-    <ClCompile Include="Src\ImplementTriePrefixTree.cpp" />
-    <ClCompile Include="Src\IsomorphicStringsSolution.cpp" />
-    <ClCompile Include="Src\LongestSubstringWithoutRepeatingCharactersSolution.cpp" />
-    <ClCompile Include="Src\LowestCommonAncestorOfABinaryTreeSolution.cpp" />
-    <ClCompile Include="Src\MaxConsecutiveOnes.cpp" />
-    <ClCompile Include="Src\MaximumLengthOfRepeatedSubarray.cpp" />
-    <ClCompile Include="Src\MedianFinder.cpp" />
-    <ClCompile Include="Src\MergeTwoSortedListsSolution.cpp" />
-    <ClCompile Include="Src\MissingNumberSolution.cpp" />
+    <ClCompile Include="Src\LeetCode00001.cpp" />
+    <ClCompile Include="Src\LeetCode00002.cpp" />
+    <ClCompile Include="Src\LeetCode00003.cpp" />
+    <ClCompile Include="Src\LeetCode00019.cpp" />
+    <ClCompile Include="Src\LeetCode00021.cpp" />
+    <ClCompile Include="Src\LeetCode00136.cpp" />
+    <ClCompile Include="Src\LeetCode00167.cpp" />
+    <ClCompile Include="Src\LeetCode00198.cpp" />
+    <ClCompile Include="Src\LeetCode00204.cpp" />
+    <ClCompile Include="Src\LeetCode00205.cpp" />
+    <ClCompile Include="Src\LeetCode00208.cpp" />
+    <ClCompile Include="Src\LeetCode00223.cpp" />
+    <ClCompile Include="Src\LeetCode00224.cpp" />
+    <ClCompile Include="Src\LeetCode00227.cpp" />
+    <ClCompile Include="Src\LeetCode00228.cpp" />
+    <ClCompile Include="Src\LeetCode00234.cpp" />
+    <ClCompile Include="Src\LeetCode00236.cpp" />
+    <ClCompile Include="Src\LeetCode00238.cpp" />
+    <ClCompile Include="Src\LeetCode00257.cpp" />
+    <ClCompile Include="Src\LeetCode00260.cpp" />
+    <ClCompile Include="Src\LeetCode00268.cpp" />
+    <ClCompile Include="Src\LeetCode00278.cpp" />
+    <ClCompile Include="Src\LeetCode00284.cpp" />
+    <ClCompile Include="Src\LeetCode00290.cpp" />
+    <ClCompile Include="Src\LeetCode00292.cpp" />
+    <ClCompile Include="Src\LeetCode00295.cpp" />
+    <ClCompile Include="Src\LeetCode00299.cpp" />
+    <ClCompile Include="Src\LeetCode00303.cpp" />
+    <ClCompile Include="Src\LeetCode00307.cpp" />
+    <ClCompile Include="Src\LeetCode00316.cpp" />
+    <ClCompile Include="Src\LeetCode00367.cpp" />
+    <ClCompile Include="Src\LeetCode00374.cpp" />
+    <ClCompile Include="Src\LeetCode00405.cpp" />
+    <ClCompile Include="Src\LeetCode00485.cpp" />
+    <ClCompile Include="Src\LeetCode00509.cpp" />
+    <ClCompile Include="Src\LeetCode00718.cpp" />
+    <ClCompile Include="Src\LeetCode00917.cpp" />
+    <ClCompile Include="Src\LeetCode00922.cpp" />
+    <ClCompile Include="Src\LeetCode00961.cpp" />
+    <ClCompile Include="Src\LeetCode00977.cpp" />
     <ClCompile Include="Src\NArryTreeLevelOrderTraversal.cpp" />
-    <ClCompile Include="Src\NimGameSolution.cpp" />
-    <ClCompile Include="Src\NRepeatedElementInSize2NArray.cpp" />
-    <ClCompile Include="Src\NumArraySolution.cpp" />
-    <ClCompile Include="Src\PalindromeLinkedListSolution.cpp" />
-    <ClCompile Include="Src\PeekingIteratorSolution.cpp" />
-    <ClCompile Include="Src\ProductOfArrayExceptSelfSolution.cpp" />
-    <ClCompile Include="Src\RangeSumQueryImmutableSolution.cpp" />
-    <ClCompile Include="Src\RectangleAreaSolution.cpp" />
-    <ClCompile Include="Src\RemoveDuplicateLettersSolution.cpp" />
-    <ClCompile Include="Src\RemoveNthNodeFromEndOfListSolution.cpp" />
-    <ClCompile Include="Src\ReverseOnlyLetters.cpp" />
-    <ClCompile Include="Src\SingleNumberIII.cpp" />
-    <ClCompile Include="Src\SingleNumberSolution.cpp" />
-    <ClCompile Include="Src\SortArrayByParityII.cpp" />
-    <ClCompile Include="Src\SquaresOfASortedArray.cpp" />
-    <ClCompile Include="Src\SummaryRangesSolution.cpp" />
-    <ClCompile Include="Src\TwoSumII.cpp" />
-    <ClCompile Include="Src\TwoSumSolution.cpp" />
-    <ClCompile Include="Src\ValidPerfectSquare.cpp" />
-    <ClCompile Include="Src\WordPatternSolution.cpp" />
-    <ClCompile Include="UnitTest\AddTwoNumbersTestSuite.cpp" />
-    <ClCompile Include="UnitTest\BasicCalculatorIITestSuite.cpp" />
-    <ClCompile Include="UnitTest\BasicCalculatorTestSuite.cpp" />
-    <ClCompile Include="UnitTest\BinaryTreePathsTestSuite.cpp" />
-    <ClCompile Include="UnitTest\BullsAndCowsTestSuite.cpp" />
-    <ClCompile Include="UnitTest\ConvertANumberToHexadecimalTestSuite.cpp" />
-    <ClCompile Include="UnitTest\CountPrimesTestSuite.cpp" />
-    <ClCompile Include="UnitTest\FibonacciNumberTestSuite.cpp" />
-    <ClCompile Include="UnitTest\FirstBadVersionTestSuite.cpp" />
-    <ClCompile Include="UnitTest\GuessNumberHigherOrLowerTestSuite.cpp" />
-    <ClCompile Include="UnitTest\HouseRobberTestSuite.cpp" />
-    <ClCompile Include="UnitTest\IsomorphicStringsTestSuite.cpp" />
-    <ClCompile Include="UnitTest\LongestSubstringWithoutRepeatingCharactersTestSuite.cpp" />
-    <ClCompile Include="UnitTest\LowestCommonAncestorOfABinaryTreeTestSuite.cpp" />
-    <ClCompile Include="UnitTest\MaxConsecutiveOnesTestSuite.cpp" />
-    <ClCompile Include="UnitTest\MaximumLengthOfRepeatedSubarrayTestSuite.cpp" />
-    <ClCompile Include="UnitTest\MedianFinderTestSuite.cpp" />
-    <ClCompile Include="UnitTest\MergeTwoSortedListsTestSuite.cpp" />
-    <ClCompile Include="UnitTest\MissingNumberTestSuite.cpp" />
-    <ClCompile Include="UnitTest\NimGameTestSuite.cpp" />
-    <ClCompile Include="UnitTest\NRepeatedElementInSize2NArrayTestSuite.cpp" />
-    <ClCompile Include="UnitTest\PalindromeLinkedListTestSuite.cpp" />
-    <ClCompile Include="UnitTest\ProductOfArrayExceptSelfTestSuite.cpp" />
-    <ClCompile Include="UnitTest\RangeSumQueryImmutableTestSuite.cpp" />
-    <ClCompile Include="UnitTest\RangeSumQueryTestSuite.cpp" />
-    <ClCompile Include="UnitTest\RectangleAreaTestSuite.cpp" />
-    <ClCompile Include="UnitTest\RemoveDuplicateLettersTestSuite.cpp" />
-    <ClCompile Include="UnitTest\RemoveNthNodeFromEndofListTestSuite.cpp" />
-    <ClCompile Include="UnitTest\ReverseOnlyLettersTestSuite.cpp" />
-    <ClCompile Include="UnitTest\SingleNumberIIITestSuite.cpp" />
-    <ClCompile Include="UnitTest\SingleNumberTestSuite.cpp" />
-    <ClCompile Include="UnitTest\SortArrayByParityIITestSuite.cpp" />
-    <ClCompile Include="UnitTest\SquaresOfASortedArrayTestSuite.cpp" />
-    <ClCompile Include="UnitTest\SummaryRangesTestSuite.cpp" />
-    <ClCompile Include="UnitTest\TowSumTestSuite.cpp" />
-    <ClCompile Include="UnitTest\TrieTestSuite.cpp" />
-    <ClCompile Include="UnitTest\TwoSumIITestSuite.cpp" />
-    <ClCompile Include="UnitTest\ValidPerfectSquareTestSuite.cpp" />
-    <ClCompile Include="UnitTest\WordPatternTestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00001TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00002TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00003TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00019TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00021TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00136TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00167TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00198TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00204TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00205TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00208TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00223TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00224TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00227TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00228TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00234TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00236TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00238TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00257TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00260TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00268TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00278TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00290TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00292TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00295TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00299TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00303TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00307TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00316TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00367TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00374TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00405TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00485TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00509TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00718TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00917TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00922TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00961TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode00977TestSuite.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\AddTwoNumbersSolution.hpp" />
-    <ClInclude Include="Src\BasicCalculatorIISolution.hpp" />
-    <ClInclude Include="Src\BasicCalculatorSolution.hpp" />
-    <ClInclude Include="Src\BinaryTreePathsSolution.hpp" />
-    <ClInclude Include="Src\BullsAndCowsSolution.hpp" />
-    <ClInclude Include="Src\ConvertANumberToHexadecimal.hpp" />
-    <ClInclude Include="Src\CountPrimesSolution.hpp" />
-    <ClInclude Include="Src\FibonacciNumber.hpp" />
-    <ClInclude Include="Src\FirstBadVersionSolution.hpp" />
-    <ClInclude Include="Src\GuessNumberHigherOrLower.hpp" />
-    <ClInclude Include="Src\HouseRobberSolution.hpp" />
-    <ClInclude Include="Src\ImplementTriePrefixTree.hpp" />
-    <ClInclude Include="Src\IsomorphicStringsSolution.hpp" />
-    <ClInclude Include="Src\LongestSubstringWithoutRepeatingCharactersSolution.h" />
-    <ClInclude Include="Src\LowestCommonAncestorOfABinaryTreeSolution.hpp" />
-    <ClInclude Include="Src\MaxConsecutiveOnes.hpp" />
-    <ClInclude Include="Src\MaximumLengthOfRepeatedSubarray.hpp" />
-    <ClInclude Include="Src\MedianFinder.hpp" />
-    <ClInclude Include="Src\MergeTwoSortedListsSolution.hpp" />
-    <ClInclude Include="Src\MissingNumberSolution.hpp" />
+    <ClInclude Include="Src\LeetCode00001.hpp" />
+    <ClInclude Include="Src\LeetCode00002.hpp" />
+    <ClInclude Include="Src\LeetCode00003.hpp" />
+    <ClInclude Include="Src\LeetCode00019.hpp" />
+    <ClInclude Include="Src\LeetCode00021.hpp" />
+    <ClInclude Include="Src\LeetCode00136.hpp" />
+    <ClInclude Include="Src\LeetCode00167.hpp" />
+    <ClInclude Include="Src\LeetCode00198.hpp" />
+    <ClInclude Include="Src\LeetCode00204.hpp" />
+    <ClInclude Include="Src\LeetCode00205.hpp" />
+    <ClInclude Include="Src\LeetCode00208.hpp" />
+    <ClInclude Include="Src\LeetCode00223.hpp" />
+    <ClInclude Include="Src\LeetCode00224.hpp" />
+    <ClInclude Include="Src\LeetCode00227.hpp" />
+    <ClInclude Include="Src\LeetCode00228.hpp" />
+    <ClInclude Include="Src\LeetCode00234.hpp" />
+    <ClInclude Include="Src\LeetCode00236.hpp" />
+    <ClInclude Include="Src\LeetCode00238.hpp" />
+    <ClInclude Include="Src\LeetCode00257.hpp" />
+    <ClInclude Include="Src\LeetCode00260.hpp" />
+    <ClInclude Include="Src\LeetCode00268.hpp" />
+    <ClInclude Include="Src\LeetCode00278.hpp" />
+    <ClInclude Include="Src\LeetCode00284.hpp" />
+    <ClInclude Include="Src\LeetCode00290.hpp" />
+    <ClInclude Include="Src\LeetCode00292.hpp" />
+    <ClInclude Include="Src\LeetCode00295.hpp" />
+    <ClInclude Include="Src\LeetCode00299.hpp" />
+    <ClInclude Include="Src\LeetCode00303.hpp" />
+    <ClInclude Include="Src\LeetCode00307.hpp" />
+    <ClInclude Include="Src\LeetCode00316.hpp" />
+    <ClInclude Include="Src\LeetCode00367.hpp" />
+    <ClInclude Include="Src\LeetCode00374.hpp" />
+    <ClInclude Include="Src\LeetCode00405.hpp" />
+    <ClInclude Include="Src\LeetCode00485.hpp" />
+    <ClInclude Include="Src\LeetCode00509.hpp" />
+    <ClInclude Include="Src\LeetCode00718.hpp" />
+    <ClInclude Include="Src\LeetCode00917.hpp" />
+    <ClInclude Include="Src\LeetCode00922.hpp" />
+    <ClInclude Include="Src\LeetCode00961.hpp" />
+    <ClInclude Include="Src\LeetCode00977.hpp" />
     <ClInclude Include="Src\NArryTreeLevelOrderTraversal.hpp" />
-    <ClInclude Include="Src\NimGameSolution.hpp" />
-    <ClInclude Include="Src\NRepeatedElementInSize2NArray.hpp" />
-    <ClInclude Include="Src\NumArraySolution.hpp" />
-    <ClInclude Include="Src\PalindromeLinkedListSolution.hpp" />
-    <ClInclude Include="Src\PeekingIteratorSolution.hpp" />
-    <ClInclude Include="Src\ProductOfArrayExceptSelfSolution.hpp" />
-    <ClInclude Include="Src\RangeSumQueryImmutableSolution.hpp" />
-    <ClInclude Include="Src\RectangleAreaSolution.hpp" />
-    <ClInclude Include="Src\RemoveDuplicateLettersSolution.hpp" />
-    <ClInclude Include="Src\RemoveNthNodeFromEndOfListSolution.hpp" />
-    <ClInclude Include="Src\ReverseOnlyLetters.hpp" />
-    <ClInclude Include="Src\SingleNumberIII.hpp" />
-    <ClInclude Include="Src\SingleNumberSolution.hpp" />
-    <ClInclude Include="Src\SortArrayByParityII.hpp" />
-    <ClInclude Include="Src\SquaresOfASortedArray.hpp" />
     <ClInclude Include="Src\Struct.hpp" />
-    <ClInclude Include="Src\SummaryRangesSolution.hpp" />
-    <ClInclude Include="Src\TwoSumII.hpp" />
-    <ClInclude Include="Src\TwoSumSolution.hpp" />
-    <ClInclude Include="Src\ValidPerfectSquare.hpp" />
-    <ClInclude Include="Src\WordPatternSolution.hpp" />
-    <ClInclude Include="UnitTest\disabled.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2C4F9725-900A-4301-8881-3B7427410A40}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LeetCodeSol</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -183,15 +182,19 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\3rdlib\vs2022\gmock-both.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\3rdlib\vs2022\gmock-both.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\3rdlib\vs2022\gmock-both.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\3rdlib\vs2022\gmock-both.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
