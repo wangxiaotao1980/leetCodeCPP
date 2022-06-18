@@ -466,5 +466,33 @@ TEST(LeetCode00021TestSuite, MergeTwoSortedListsTestSuiteTestCase4)
     DeleteNodeList(pDelete);
 }
 
+
+//----------------------------------------------------------------------------------------------------------------------
+// LeetCode No.21 Merge Two Sorted Lists
+#define  LeetCode00053TestSuite DISABLED_LeetCode00053TestSuite
+TEST(LeetCode00053TestSuite, maxSubArrayTestCase0)
+{
+    std::vector<int> nums{ -2,1,-3,4,-1,2,1,-5,4 };
+    LeetCode00053 sol;
+
+    ASSERT_EQ(6, sol.maxSubArray(nums));
+}
+
+TEST(LeetCode00053TestSuite, maxSubArrayTestCase1)
+{
+    std::vector<int> nums{ 1 };
+    LeetCode00053 sol;
+
+    ASSERT_EQ(1, sol.maxSubArray(nums));
+}
+
+TEST(LeetCode00053TestSuite, maxSubArrayTestCase2)
+{
+    std::vector<int> nums{ 5,4,-1,7,8 };
+    LeetCode00053 sol;
+
+    ASSERT_EQ(23, sol.maxSubArray(nums));
+}
+
 //
 //----------------------------------------------------------------------------------------------------------------------

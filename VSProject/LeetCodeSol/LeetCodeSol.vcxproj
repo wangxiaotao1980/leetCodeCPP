@@ -40,6 +40,7 @@
     <ClCompile Include="UnitTest\LeetCode00501ToLeetCode00600TestSuite.cpp" />
     <ClCompile Include="UnitTest\LeetCode00701ToLeetCode00800TestSuite.cpp" />
     <ClCompile Include="UnitTest\LeetCode00901ToLeetCode01000TestSuite.cpp" />
+    <ClCompile Include="UnitTest\LeetCode01601ToLeetCode01700TestSuite.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\LeetCode00001ToLeetCode00100.hpp" />

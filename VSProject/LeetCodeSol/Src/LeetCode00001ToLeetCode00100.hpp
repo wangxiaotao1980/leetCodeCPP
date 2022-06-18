@@ -7,31 +7,39 @@
 
 struct ListNode;
 //----------------------------------------------------------------------------------------------------------------------
+// No.1 Two Sum
 class LeetCode00001
 {
 public:
-    // No.1 Two Sum
     std::vector<int> twoSum(std::vector<int>& nums, int target);
 };
+
+// No.2 Add Two Numbers
 class LeetCode00002
 {
 public:
-    // No.2 Add Two Numbers 
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 };
+
+// No.19 Remove Nth Node From End of List
 class LeetCode00019
 {
 public:
-    // No.19 Remove Nth Node From End of List
     ListNode* removeNthFromEnd(ListNode* head, int n);
 };
 
+// No.21 Merge Two Sorted Lists
 class LeetCode00021
 {
 public:
-    // No.21 Merge Two Sorted Lists
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2);
 };
 
+// No.53
+class LeetCode00053
+{
+public:
+    int maxSubArray(std::vector<int>& nums);
+};
 //
 //----------------------------------------------------------------------------------------------------------------------

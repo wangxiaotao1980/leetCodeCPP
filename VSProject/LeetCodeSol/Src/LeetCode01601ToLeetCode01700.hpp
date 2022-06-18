@@ -5,7 +5,7 @@
 #pragma once
 
 //----------------------------------------------------------------------------------------------------------------------
-class LeetCode01601ToLeetCode01700
+class LeetCode01646
 {
 public:
     //No 1646. Get Maximum in Generated Array

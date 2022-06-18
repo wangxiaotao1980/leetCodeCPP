@@ -5,7 +5,7 @@
 
 #include "LeetCode01601ToLeetCode01700.hpp"
 
-int LeetCode01601ToLeetCode01700::getMaximumGenerated(int n)
+int LeetCode01646::getMaximumGenerated(int n)
 {
     if (n < 2)
     {

@@ -189,5 +189,31 @@ ListNode* LeetCode00021::mergeTwoLists(ListNode* l1, ListNode* l2)
     return pResult;
 }
 
+int LeetCode00053::maxSubArray(std::vector<int>& nums)
+{
+    int result = nums[0];
+    int max = nums[0];
+
+    for (int i = 1; i < nums.size(); ++i)
+    {
+        if (result < 0)
+        {
+            result = nums[i];
+        }
+        else
+        {
+            result += nums[i];
+        }
+
+
+        if (result > max)
+        {
+            max = result;
+        }
+    }
+
+    return max;
+}
+
 //
 //----------------------------------------------------------------------------------------------------------------------
